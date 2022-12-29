@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700;900&display=swap');
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    font-size:12px;
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    font-family:'Kumbh Sans';
+    background-attachment:fixed;   
+}
+main{
+    width:326px;
+    background-image:url("./../images/bg-pattern-mobile.svg");
+    background-repeat:no-repeat no-repeat;
+    background-position-x:center;
+    border-radius:1.5rem;
+    margin-top:200px;
+}
+h1{
+    font-size:1.8rem;
+    font-weight:bold;
+}
+details{
+    border-color:hsl(240, 5%, 91%);
+}
+
+header{
+    margin-top:-110px;
+}
+
+details summary{
+    list-style:none;
+    color:hsl(240, 6%, 50%);
+    font-weight:700;
+}
+
+details summary:hover{
+    color:hsl(14, 88%, 65%);
+}
+
+details>p{
+    font-size:0.65rem;
+    color:hsl(240, 6%, 50%);
+}
+
+details summary::after {
+    content: url("./../images/icon-arrow-down.svg");
+    float:right;
+  }
+  
+  details[open] summary::after {
+    content: url("./../images/icon-arrow-down.svg");
+    transform:rotate(180deg);
+  }
+  details[open] summary{
+    color:black;
+  }
+section{
+    width:85%;
+}
