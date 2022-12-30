@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot Mobile
 
-![](./images/screenshotAccordionCard-desktop.png)
+![](./images/screenshotAccordionCard-mobile.png)
 
 ### Links
 
